@@ -1,0 +1,303 @@
+/* start main style*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    
+}
+/* end main styel*/
+/*11111111111111111111111111111111111111*/
+/* start header style*/
+header {
+    margin-top: 0;
+    /*padding: 0px;*/
+    font-family: sans-serif;
+    color: #ffffff;
+    /*position: fixed;*/
+}
+ header .nav_st{
+      
+     padding: 20px 5px 15px 5px;
+    background: #151719;
+    display: flex;
+     flex-flow: row;
+     justify-content: space-between;
+     height: 100px;
+     font-weight: bold;
+}
+
+header .nav_st .li_stle{
+    background-color: #151719;
+    caption-side: #ffffff;
+    height: 50px;
+    margin-left: 5px;
+}
+header .nav_st  ul li .jj{
+
+    border-color: #44494d;
+    background-color: #72777b;
+}
+.JJ{
+    height: 50px;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #FFFFFF;
+    background-color: #151719;
+    border-bottom: 1px solid #545b63;
+    border-top: 1px solid #545b63;
+    
+
+}
+.m{
+     border-left: 1px solid #545b63;
+}
+
+.m1{
+     border-right: 1px solid #545b63;
+    margin-right: 10px;
+}
+    
+.m5{
+    background-color: crimson;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #FF5733;
+    border-color: #FF5733;
+    margin-left: 10px;
+}
+
+
+
+/* start menu bar style*/
+#sidebar{
+    float: right;
+    margin: 10px 5px ;
+    padding: 10px;
+    height: 60%;
+    width: 25%;
+    position: fixed;
+    background: #151719;
+    color: #ffffff;
+    left: -25.5%;
+}
+#sidebar .active{
+    left: 0%;
+}
+
+#sidebar ul li{
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 2px solid rgb(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+    position: absolute;
+    left:101%;
+    top :20px;
+    
+    
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #151719;
+    margin: 5px 0px;
+    
+}
+
+/* end menu bar style*/
+
+/*end header style*/
+
+/*2222222222222222222222222222222222222222*/
+
+
+/* start header of section */
+section .top{
+    margin-top: 200px;
+    color: #545b63;
+    
+    
+}
+.art{
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+}
+section a {
+    color: #545b63;
+    text-decoration-color: #EC7063;
+    text-decoration: none;
+    
+}
+section a :hover{
+    color: #EC7063;
+    text-decoration: none;
+    
+}
+section .all_sec_img{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+section .back_img1{
+    width: 30%;
+    height: 300px;
+    background: url(imges/1.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img2{
+    width: 30%;
+    height: 300px;
+    background: url(imges/2.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img3{
+    width: 30%;
+    height: 300px;
+    background: url(imges/3.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img4{
+    width: 25%;
+    height: 300px;
+    background: url(imges/4.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img5{
+    width: 25%;
+    height: 300px;
+    background: url(imges/5.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img6{
+    width: 25%;
+    height: 300px;
+    background: url(imges/6.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img7{
+    width: 25%;
+    height: 300px;
+    background: url(imges/7.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img8{
+    width: 25%;
+    height: 300px;
+    background: url(imges/8.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img9{
+    width: 25%;
+    height: 300px;
+    background: url(imges/9.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img10{
+    width: 25%;
+    height: 300px;
+    background: url(imges/10.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img11{
+    width: 25%;
+    height: 300px;
+    background: url(imges/11.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+section .back_img12{
+    width: 25%;
+    height: 300px;
+    background: url(imges/12.jpeg);
+    text-align: center;
+    color: #ffffff;
+     
+}
+.color1{
+    padding-top: 48%;
+    font-size: 15px;
+    font-family: monospace;
+    
+    
+}
+
+
+
+/* ent the header of section */
+/*333333333333333333333333333333333333333333333333*/
+/* start footer*/
+footer{
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    padding: 80px;
+    background-color: #F7F9F9 ;
+}
+footer h4{
+    font-family: fantasy;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #808B96;
+    
+}
+footer input{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 70px;
+    width: 300px;
+    font-size: 15px;
+    border-bottom-color: #808B96; 
+    background-color: #F7F9F9;
+}
+footer .l {
+    width: 600px;
+}
+footer p{
+    margin-top: 50px;
+    color: #808B96;
+}
+footer a{
+    color: #808B96;
+}
+
+/* end footer*/
+
+
+
+
+
+
+
+
+
